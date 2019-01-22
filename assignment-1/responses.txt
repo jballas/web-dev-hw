@@ -1,5 +1,8 @@
 How is the web different than the internet?
-  The internet is created by a network of computers, fiberoptic cables and servers. These components are basically the hardware of the system, while the web could be considered the software. The web, also known as the world wide web, includes billions of webpages, social media sites, on-line applications and blogs created using HTML and other web languages. You can have the internet without the web, but the web relies on the internet to connect all its pages.
+  The internet is created by a network of computers, fiberoptic cables and servers. 
+  These components are basically the hardware of the system, while the web could be considered the software. 
+  The web, also known as the world wide web, includes billions of webpages, social media sites, on-line applications and blogs created using HTML and other web languages. 
+  You can have the internet without the web, but the web relies on the internet to connect all its pages.
 
 Briefly describe how the internet works. ("Magic.")
 
