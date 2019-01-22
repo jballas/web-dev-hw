@@ -1,3 +1,10 @@
-I'm adding some text to my new responses.txt file.
-I clicked add a new file, then named my directory and lastly named the file: responses.txt.
-The instructions made it very easy to complete.
+How is the web different than the internet?
+  The internet is created by a network of computers, fiberoptic cables and servers. These components are basically the hardware of the system, while the web could be considered the software. The web, also known as the world wide web, includes billions of webpages, social media sites, on-line applications and blogs created using HTML and other web languages. You can have the internet without the web, but the web relies on the internet to connect all its pages.
+
+Briefly describe how the internet works. ("Magic.")
+
+Select a file type you maybe haven't come across before, and what role it plays in web development.
+
+What is a directory, and what is its relationship to files?
+
+State at least one thing you found interesting this topic, or that you didn't know before
