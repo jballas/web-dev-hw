@@ -1,0 +1,3 @@
+I'm adding some text to my new responses.txt file.
+I clicked add a new file, then named my directory and lastly named the file: responses.txt.
+The instructions made it very easy to complete.
