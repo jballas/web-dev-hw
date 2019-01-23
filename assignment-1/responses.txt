@@ -1,13 +1,14 @@
-How is the web different than the internet?
-  The internet is created by a network of computers, fiberoptic cables and servers. 
-  These components are basically the hardware of the system, while the web could be considered the software. 
-  The web, also known as the world wide web, includes billions of webpages, social media sites, on-line applications and blogs created using HTML and other web languages. 
-  You can have the internet without the web, but the web relies on the internet to connect all its pages.
+1. How is the web different than the internet?
+  The internet is created by a network of computers through the world. This includes all the fiberoptic cables, routers and servers that host data, as well as personal computers and devices. These components are basically the hardware of the system, while the web could be considered the software. The web, also known as the world wide web, includes billions of webpages, social media sites, on-line applications and blogs created using HTML and other web languages. You can have the internet without the web, for instance with email, but the web relies on the internet to connect all its pages and people.
 
-Briefly describe how the internet works. ("Magic.")
+2. Briefly describe how the internet works. ("Magic.")
+  The internet relies on its network. Cables connect between the servers that host various applications and websites, and the computers or other devises that want to access those websites. To connect to the internet a computer needs to have an ISP, or an internet service provider. Then once connected you can use a browser, such as Chrome or Firefox to view websites, email, purchase items or play games.
 
-Select a file type you maybe haven't come across before, and what role it plays in web development.
+3. Select a file type you maybe haven't come across before, and what role it plays in web development.
+  CGI, also known as Common Gateway INterface, is a script that adds extra features to a website beyond its basic content and design. CGI is used along with other programming languages like Python or Java. It helps to process data recieved by users, and creates a more dynamic and interactive webpage.
 
-What is a directory, and what is its relationship to files?
+4. What is a directory, and what is its relationship to files?
+   A computer directory is also sometimes called a folder, because it stores information and contains files within. Directories allow you to organize your files in a logical manner for easier retrieval and to prevent duplication or overwriting another file with the same name.
 
-State at least one thing you found interesting this topic, or that you didn't know before
+5. State at least one thing you found interesting this topic, or that you didn't know before
+  I was looking at a job applications recently that required PHP knowledge, and I wasn't familiar with the term. Having PHP listed among the HTML and CSS web languages makes sense since the job was for a web developer. The creative aspect of web design appearls to me, rather than the technical. There is always more to learn when you start coding. While the easier ones like markdown aren't as intimidating, I still find more complicated ones like PHP or any of the scripts overwhelming.
