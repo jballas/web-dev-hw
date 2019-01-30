@@ -1,2 +1,5 @@
-# Julia Ballas' web-dev-hw
-Repository for my Introduction to Web Design and Development Homework
+# Test Readme file
+
+This is a new line.
+
+My [course notes](./notes.txt)
