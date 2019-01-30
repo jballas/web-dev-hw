@@ -4,4 +4,4 @@ This is a new line.
 
 My [course notes](./notes.txt)
 
-![Atom editor](./images/screenshot-test.png)
+![Atom editor](./images/screenshot-test.PNG)
