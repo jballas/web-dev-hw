@@ -1,15 +1,15 @@
 1. Briefly describe one way how data travels on the internet.
 
-Data travels through the internet in packets, but it needs to have a system of wires or cables, which connects the servers that store the data with the computer that request the information. The fastest method for transferring data is to use fiberoptic cables, usually made from copper. Light waves of information bounce through the wire until they reach their destination, sometimes crossing entire oceans.
+Data travels through the internet in packets, but it also needs to have a system of wires or cables. These connects the servers that store the data with the computer that requested the information. The fastest method for transferring data is to use fiberoptic cables, usually made from copper. Light waves of information bounce through the cable until they reach their destination, sometimes crossing entire oceans.
 
 2. What is the relationship between an IP address and the DNS?
 
-The IP address is the unique set of numbers that identifies a computer. Each computer and devise has its own IP address. The DNS is a domain name system, which stores and will search out an IP address in order to transfer information over the internet.
+The IP address is the unique set of numbers that identifies a computer. Each computer and devise has its own IP address. The DNS is a domain name system, which stores and searches for an IP address in order to transfer information over the internet.
 
 3. What is a cookie?
 
-A cookie is a small piece of data attached to an IP address that allows a website and recognize a returning IP address. This makes it easier to login to a social media site, such as google, because the computer and servers are already connected.
+A cookie is a small piece of data attached to an IP address that allows a website to recognize a returning IP address. This makes it easier to login to a social media site, such as Google, because the computer and servers are already connected.
 
 4. List the three basic parts of a URL.
 
-A URL consists of a protocol, a domain, and the path or file. For instance: http://youtube.com/feed/history. The protocol is the (http://), the domain name is (youTube), where you home page of their website is located, and the specific path is (feed/history). 
+A URL consists of a protocol, a domain, and the path or file. For instance: http://youtube.com/feed/history. The protocol is the (http://), the domain name is (youtube), where you home page of their website is located, and the specific path is (feed/history). 
