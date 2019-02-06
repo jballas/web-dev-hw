@@ -1,4 +1,6 @@
-# MART341.50
+# Assignment 3
+
+## MART341.50
 
 ## Julia Ballas
 
@@ -8,8 +10,10 @@ Browsers render webpages by interpreting HTML and CSS documents. I currently use
 
 2. What is a markup language? Describe one commonly used in development.
 
+A markup language is
+XHTML, which stands for Extensible Hypertext Markup Language, is the used for more sophisticated web design. X
 
-HTML, which stands for  Hypertext Markup Language, is a type of markup language used in web design. HTML contains different elements of a website, such as headings, paragraphs, and images.
+While, HTML contains different elements of a website, such as headings, paragraphs, and images.
 
 3. Include your screenshot as an image link.
 ![screenshot for Assignment 03](images/screenshot-successful.PNG)
