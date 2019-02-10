@@ -6,7 +6,7 @@
 
 1. Very briefly detail how browsers function. List any browsers you currently use to surf - or even develop for - the web.
 
-A web browser contains a user interface, which gives you access to different webpages through an address bar. When a request is made to go to a certain web page, the browser sends a request through the internet to a server for that webpage documents. Then the browser's rendering engine interprets the HTML and CSS documents so it can display the site. I currently use Google's Chrome, because it loads pages faster.
+A web browser contains a user interface, which gives you access to different webpages through an address bar. When a request is made to go to a certain web page, the browser connetcs through the internet to a server that contains the webpage's documents. Then the browser's rendering engine interprets the HTML and CSS documents so it can display the site. I currently use Google's Chrome, because it loads pages faster.
 
 2. What is a markup language? Describe one commonly used in development.
 
