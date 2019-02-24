@@ -14,13 +14,7 @@ Structural elements on a website are the bones. They are the bare necessity for 
 
 ## Free Response
 
-Creating a simple recipe website made me realize how 
-
-### HTML review
-
+While creating my simple recipe website I realized how easily it is to mix up `<sup>` and `<sub>` tags. It makes the code so much harder to read when you have numbers surrounded by these tags, but the HTML website is much clearer with these semantic markup elements.
 
 ### Coding
-
-### Questions
-### Issues or Concerns
-### Concludsion
+I practiced adding extra links in my website. In particular I wanted to experiment with the internal links to click to different portions of the same page. I made a link in the ingredients. `<a href ="#alternatives">Shortening</a>`. You click on shortening and it goes to the `<h3 id="alternatives">` However, since the website is so short, you can't really tell that it goes anywhere. It was good to practice this. I wonder if its possible to highlight a heading, after an internal link has been clicked. Or, if that is even worth bothering. On most webpages we are used to scrolling up and down on our phones and don't click on links unless we have to.
