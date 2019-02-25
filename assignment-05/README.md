@@ -4,13 +4,13 @@
 
 ## Assignment
 
-1. How many documents <head> and <body> elements can a page have? How are these elements different, or what role do they play?
+1. How many document <head> and <body> elements can a page have? How are these elements different, or what role do they play?
 
-Within the `<head>` and `<body>` there are certain required elements. The head must have a `<title>` within, but there are other elements that help browsers collection information about your site, such as meta tags with author and description. Within the `<body>` of an HTML document, the content should be identified by heading and paragraph elements to make it easier to read. Other elements can significantly contribute to the webpage's readability, such as alternative text attributions within images for screen readers.
+A webpage has one `<head>` and one `<body>` element and they must contain certain elements. The head must have a `<title>` within, but there are other elements that help browsers collection information about your site, such as meta tags with author and description. Within the `<body>` of an HTML document, the content should be identified by heading and paragraph elements to make it easier to read. Other elements can significantly contribute to the webpage's readability, such as alternative text attributions within images for screen readers.
 
 2. Describe the difference between structural and semantic markup.
 
-Structural elements on a website are the bones. They are the bare necessity for a site to be understood. It includes headings, such as `<h1>` and paragraphs. Semantic markup adds in details to the website from empahising important words with `<em>` tags to indicating abbreviations with `<abbr>`. If a website negelects the semantics, it will still function, but it will not be optimized for search engines or as user friendly.
+Structural elements on a website are the bones. They are the bare necessity for a site to be understood. It includes headings, such as `<h1>` and paragraphs. Semantic markup adds in details to the website from emphasizing important words with `<em>` tags to indicate abbreviations with `<abbr>`. If a website neglects the semantics, it will still function, but it will not be optimized for search engines or as user friendly.
 
 ## Free Response
 
