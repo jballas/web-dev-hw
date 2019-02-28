@@ -60,16 +60,31 @@ Phone: (406) 243-1234</address>
 
     <!-- Order form below -->
     <h2> Order Form</h2>
-    <!--form action="http://www.jballas.io.github.com/order.php" method="get"-->
+    <form action="http://www.jballas.io.github.com/order.php" method="get">
 
     <p>Book Title
       <input style="text" name="book title" size="50" maxlength="100" />
     </p>
-    <p>author
-      <input style="text" name="author" size="20" maxlength="50"
+    <p>Author
+      <input style="text" name="author" size="20" maxlength="50" />
     </p>
-    <p>Can't remember the exact or author?</p>
-      <textarea name="comments" cols="30" rows="10">Describe the book here...</textarea>
+    <p>Book genre:
+      </br>
+        <input type="radio" name="genre" value="Science Fiction" checked="checked" />Science Fiction
+        <input type="radio" name="genre" value="Fantasy" checked="checked" /> Fantasy
+        <input type="radio" name="genre" value="Romance" checked="checked" /> Romance
+        <input type="radio" name="genre" value="Action" checked="checked" /> Action
+        <input type="radio" name="genre" value="Mystery" checked="checked" /> Mystery
+        <input type="radio" name="genre" value="N/A" checked="check" /> <abbr title="not applicable">N/A</abbr>
+      </p>
+
+    <p>Can't remember the exact name of the book or author?</p>
+      <textarea name="comments" cols="30" rows="10" placeholder="Describe the book here..."></textarea>
+
+    <p> Submit your order: </p>
+      <input type="image" src="images/order-button.png" width="100" />
+
+    </form>
 
   </body>
 
