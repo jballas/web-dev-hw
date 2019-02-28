@@ -12,12 +12,12 @@
   <body>
     <h1>UC Bookstore</h1>
 
-    <p>Located in UC first floor, room: UC 130</p>
+    <p>Located on the first floor of the UC, room: UC 130</p>
 
     <address> THE UNIVERSITY OF MONTANA <br/>
-5 Campus Drive Missoula, MT 59801<br/>
-Phone: (406) 243-1234</address>
-</br>
+    5 Campus Drive Missoula, MT 59801<br/>
+    Phone: (406) 243-1234</address>
+    <br />
     <table>
       <tr>
         <th colspan="2">Open Hours</th>
@@ -62,6 +62,8 @@ Phone: (406) 243-1234</address>
     <h2> Order Form</h2>
     <form action="http://www.jballas.io.github.com/order.php" method="get">
 
+    <fieldset>
+      <legend>Details</legend>
     <p>Book Title
       <input style="text" name="book title" size="50" maxlength="100" />
     </p>
@@ -69,7 +71,7 @@ Phone: (406) 243-1234</address>
       <input style="text" name="author" size="20" maxlength="50" />
     </p>
     <p>Book genre:
-      </br>
+      <br />
         <input type="radio" name="genre" value="Science Fiction" checked="checked" />Science Fiction
         <input type="radio" name="genre" value="Fantasy" checked="checked" /> Fantasy
         <input type="radio" name="genre" value="Romance" checked="checked" /> Romance
@@ -77,6 +79,7 @@ Phone: (406) 243-1234</address>
         <input type="radio" name="genre" value="Mystery" checked="checked" /> Mystery
         <input type="radio" name="genre" value="N/A" checked="check" /> <abbr title="not applicable">N/A</abbr>
       </p>
+    </fieldset>
 
     <p>Can't remember the exact name of the book or author?</p>
       <textarea name="comments" cols="30" rows="10" placeholder="Describe the book here..."></textarea>
