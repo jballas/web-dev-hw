@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head  lang="en">
     <meta charset="UTF-8" />
     <meta name="description" content="Bookstore order form" />
     <meta name="author" content="Julia Ballas" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>UC Bookstore Order Form</title>
+    <style>
+        table, th, td {
+          border: 1px solid purple;
+          padding: 5px;
+      }
+        td {
+          text-align: right;
+        }
+    </style>
+
+
   </head>
 
   <body>
@@ -19,7 +30,6 @@
     Phone: (406) 243-1234</address>
     <br />
     <table>
-      <tr>
         <th colspan="2">Open Hours</th>
       </tr>
       <tr>
@@ -59,8 +69,8 @@
     <p><a href="mailto:info@montanabookstore.bncollege.com"> Email us</a> your requests, or use the form below.</p>
 
     <!-- Order form below -->
-    <h2> Order Form</h2>
-    <form action="http://www.jballas.io.github.com/order.php" method="get">
+    <h2> Book Search</h2>
+    <form action="http://www.jballas.io.github.com/order.php" method="get" id="book-search" class="search-form">
 
     <fieldset>
       <legend>Details</legend>
@@ -84,8 +94,8 @@
     <p>Can't remember the exact name of the book or author?</p>
       <textarea name="comments" cols="30" rows="10" placeholder="Describe the book here..."></textarea>
 
-    <p> Submit your order: </p>
-      <input type="image" src="images/order-button.png" width="100" />
+    <p>Find my book! </p>
+      <input type="image" src="images/search-button.png" alt="search button" title="Search now!" width="150" />
 
     </form>
 
