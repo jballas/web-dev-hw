@@ -74,25 +74,27 @@
 
     <fieldset>
       <legend>Details</legend>
-    <p>Book Title
-      <input style="text" name="book title" size="50" maxlength="100" />
-    </p>
-    <p>Author
-      <input style="text" name="author" size="20" maxlength="50" />
-    </p>
-    <p>Book genre:
+    <label>Book Title
+      <input type="text" name="book title" id="title-search" size="50" maxlength="100" autofocus />
+    </label>
+    <br />
+    <label>Author
+      <input type="text" name="author" id"author-search" size="50" maxlength="50" />
+    </label>
+    <br />
+    <label>Book genre:
       <br />
-        <input type="radio" name="genre" value="Science Fiction" checked="checked" />Science Fiction
-        <input type="radio" name="genre" value="Fantasy" checked="checked" /> Fantasy
-        <input type="radio" name="genre" value="Romance" checked="checked" /> Romance
-        <input type="radio" name="genre" value="Action" checked="checked" /> Action
-        <input type="radio" name="genre" value="Mystery" checked="checked" /> Mystery
-        <input type="radio" name="genre" value="N/A" checked="check" /> <abbr title="not applicable">N/A</abbr>
-      </p>
+        <input type="radio" name="genre" value="Science Fiction" id="sci-fi" /> <label for="sci-fi">Science Fiction </label>
+        <input type="radio" name="genre" value="Fantasy" id="fantasy" /><label for="fantasy">Fantasy</label>
+        <input type="radio" name="genre" value="Romance"  id="romance"/><label for="romance">Romance</label>
+        <input type="radio" name="genre" value="Action" id="action"/><label for="action">Action</label>
+        <input type="radio" name="genre" value="Mystery" id="mystery" /><label for="mystery">Mystery</label>
+        <input type="radio" name="genre" value="N/A" id="na" checked /><label for="na"><abbr title="not applicable">N/A</abbr></label>
+      </label>
     </fieldset>
 
     <p>Can't remember the exact name of the book or author?</p>
-      <textarea name="comments" cols="30" rows="10" placeholder="Describe the book here..."></textarea>
+      <textarea name="comments" id="book-description" cols="50" rows="10" placeholder="Describe the book here..."></textarea>
 
     <p>Find my book! </p>
       <input type="image" src="images/search-button.png" alt="search button" title="Search now!" width="150" />
