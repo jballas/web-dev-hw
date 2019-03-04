@@ -11,12 +11,9 @@
 
 2. List examples of a text, selection, and button input, and where they might be used.
 
-  - Text input example
-  A text input is when you enter your username and password.
-  - selection input example
-  A selction input is a checkbox, such as when you have to check that you agree to the terms and conditions of an application.
-  - button input example
-  A button is often used to sign in, such as on Github, unless you have forgotten your password. 
+  - Text input example: a text input is when you enter your username and password.
+  - selection input example: a selction input is a checkbox, such as when you have to check that you agree to the terms and conditions of an application.
+  - button input example: a button is often used to sign in, such as on Github, unless you have forgotten your password. 
 
 ## Free Response
 
