@@ -22,8 +22,14 @@
     <div class="container">
       <h1>Contact me</h1>
       <p> Baking is better when you share. If you have any questions about the recipe, or if you want to show off your success, or need advice about breadmaking, then send me a message.</p>
-      <form>
-        <!-- this is where I'll have a contact me form-->
+      <form action="http://www.jballas.io.github.com/contact.php" method="get" id="contact-me">
+
+        <label>Name:<input type="text" name="name" id="name_input" size="50" autofocus /></label> <br />
+        <label>Email:<input type="text" name="email" id="email_input" size="50" /></label><br />
+        <textarea name="description" id="project-description" placeholder="Describe your project..." cols="50" rows="5" ></textarea>
+        <br />
+        <input type="submit" name="submit-project" value="Send your Message" />
+      </form>
 
     </div>
   </body>
