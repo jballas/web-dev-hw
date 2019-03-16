@@ -36,6 +36,8 @@ When creating my HTML website I felt like I spent most of my time making the con
   -Table style
   -Navigation style?
 
+  I added the style today. I like the colors. It needs a better menu and it needs images. And it needs a margin on the left.
+
 ### Questions
 ### Issues or Concerns
 
