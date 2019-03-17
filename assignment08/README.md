@@ -7,15 +7,15 @@
 
 1. Briefly recap your experience learning HTML. What was old, new, interesting, or difficult to learn?
 
-HTML feels like it is easiest when it is right in front of you, but for some reason I can't keep it in my mind. I feel like I am just add stuff in without really knowing whether it works. I keep having to look at my notes and then I've forgotten how to link on the same page. I find it overwhelming when I have to make the content and then HTML. Its very frustrating.
-
-The forms elements were all new to me. It was fun to learn the HTML5 video and audio, but I found embedding information easier.
+HTML is easy when it is right in front of you, but it quickly builds up into a complex code. I was familiar with most of the HTML elements, and the basic layout of a webpage, so I was mostly interested in adding in details and extra semantics. The forms elements were all new to me. It was fun to learn the HTML5 video and audio, but I found embedding information from other sites much easier.
 
 2. Next Topic we begin CSS and expand on styling, which helps us "decorate" HTML. Is there anything you're anxious or excited to learn about in this new section?
 
+We got our first taste of styling with this project, and I love making the site look more like a website. Adding color is probably my favorite thing to do, so I'm looking forward to more colorful webpages. I want to better understand the box-layout and how navigation and menus can look better. I did not have a chance to make my menu appealing in this project.
+
 ## Free Response
 
-When creating my HTML website I felt like I spent most of my time making the content, then actual coding. Maybe I just picked the wrong kind of subject. I was not enjoying my recipe intructable. I kept having to ask myself if I was making my instructions clear? Then I found it difficult to label my `<div>` elements. What should the ID be? How do I best identify them? Why do I need classes? Is this just for styling?
+When creating my HTML website I felt like I spent most of my time making the content, than actual coding.  So, I didn't feel as overwhelmed by everything, I made myself a list for my coding process. This allowed me to add HTML in stages and build it up. I found a TODO list very helpful toward the end.
 
 ### Coding Workflow
 
@@ -34,13 +34,7 @@ When creating my HTML website I felt like I spent most of my time making the con
   -Heading and paragraph Style
   -ID and classes Style
   -Table style
-  -Navigation style?
 
-  I added the style today. I like the colors. It needs a better menu and it needs images. And it needs a margin on the left.
+  ### Conclusion
 
-### Questions
-### Issues or Concerns
-
-I forgot how to link inside a page, How do I link the 'return to the top'?
-
-### Conclusion
+  Toward the end of my project I added the style. I picked the wrong colors at first, I used an olive green, and then a bright spring green and it clashed horribly. When I stuck with blues it was much nicer to look out. The style is still very plain though. There is still so much to learn with CSS!
