@@ -15,7 +15,7 @@ We got our first taste of styling with this project, and I love making the site 
 
 ## Free Response
 
-When creating my HTML website I felt like I spent most of my time making the content, than actual coding.  So, I didn't feel as overwhelmed by everything, I made myself a list for my coding process. This allowed me to add HTML in stages and build it up. I found a TODO list very helpful toward the end.
+When creating my HTML website I felt like I spent most of my time making the content rather than actual coding.  So, I didn't feel as overwhelmed by everything, I made myself a list for my coding process. This allowed me to add HTML in stages and build it up. I found a TODO list very helpful toward the end.
 
 ### Coding Workflow
 
@@ -37,4 +37,4 @@ When creating my HTML website I felt like I spent most of my time making the con
 
   ### Conclusion
 
-  Toward the end of my project I added the style. I picked the wrong colors at first, I used an olive green, and then a bright spring green and it clashed horribly. When I stuck with blues it was much nicer to look out. The style is still very plain though. There is still so much to learn with CSS!
+  Toward the end of my project I added the style. I picked the wrong colors at first, I used an olive green, and then a bright spring green and it clashed horribly. When I stuck with blues, it was much nicer to look out. The style is still very plain though. There is still so much to learn with CSS!
