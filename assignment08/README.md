@@ -29,11 +29,11 @@ When creating my HTML website I felt like I spent most of my time making the con
   - images
 3. About page content
 4. Contact page content
-  - Form elemtns
+  - Form elements
 5. Style
-  -Heading and paragraph Style
-  -ID and classes Style
-  -Table style
+  - Heading and paragraph Style
+  - ID and classes Style
+  - Table style
 
   ### Conclusion
 
