@@ -1,0 +1,57 @@
+html {
+  background-color:rgb(21, 166, 128);
+  padding:20px;
+}
+
+h1, h2 {
+  color:rgb(47, 203, 200);
+  padding: 20px;
+}
+
+p {
+  padding:inherit;
+}
+
+.section{
+  background-color:white;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+}
+
+/* b/w checkerboard */
+
+.checkerboard {
+  position: absolute;
+  left: 50;
+}
+#banner-black {
+  background-color: black;
+}
+
+#banner-white {
+  background-color: white;
+}
+
+/* Color Palette */
+#c-1 {
+  background-color:rgb(47, 203, 200);
+  position: absolute;
+  left: 50px;
+}
+
+#c-2{
+    background-color:rgba(226, 16, 16, 0.75);
+    position: absolute;
+    left: 150px;
+}
+
+#c-3{
+   background-color:rgb(21, 166, 128);
+   position: absolute;
+   left: 250px;
+}
