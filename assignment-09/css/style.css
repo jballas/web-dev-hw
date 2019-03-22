@@ -13,6 +13,7 @@ p {
   padding:inherit;
 }
 
+/* Div elements */
 .section{
   background-color:white;
   border: 20px solid rgb(21, 166, 128);
@@ -32,7 +33,7 @@ p {
   width: 100px;
 }
 
-/* Color Palette */
+/* Color Palette Header*/
 #c-1 {
   background-color: turquoise;
   background-color: rgba(47, 203, 200, 0.75);
