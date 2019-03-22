@@ -19,6 +19,7 @@ I also want to try to make a checkerboard pattern out of CSS. I was inspired by 
 
 ### Creating Art in CSS
 
+CSS art is a pain when you try to use absolute positioning. I created four squares in my checkerboard and quit. Instead, I found a background image of that style. And instead made a header with 4 squares at the top in my color palette. When searching for how to create a checkerboard I discovered some pattern creation websites, and various people have created CSS backgrounds using the background gradient. This was a little beyond my level, so I decided to nix that idea. However, it did give me a good idea for my final project. The Hero image. Next time I want to drop in a Hero image.
 
 ### Issues
 

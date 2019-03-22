@@ -1,4 +1,5 @@
-html {
+body {
+  background-image: url("../images/checkerboard-pattern.jpg");
   background-color:rgb(21, 166, 128);
   padding:20px;
 }
@@ -14,44 +15,48 @@ p {
 
 .section{
   background-color:white;
-  border: 2px solid black;
+  border: 20px solid rgb(21, 166, 128);
   padding: 5px;
 }
 
+.rectangle{
+  background-color:white;
+  height: 102px;
+  width: 100%;
+  opacity: 0.50;
+}
+
 .square {
-  height: 50px;
-  width: 50px;
-}
-
-/* b/w checkerboard */
-
-.checkerboard {
-  position: absolute;
-  left: 50;
-}
-#banner-black {
-  background-color: black;
-}
-
-#banner-white {
-  background-color: white;
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
 }
 
 /* Color Palette */
 #c-1 {
-  background-color:rgb(47, 203, 200);
+  background-color: turquoise;
+  background-color: rgba(47, 203, 200, 0.75);
   position: absolute;
-  left: 50px;
+  left: 100px;
 }
 
 #c-2{
-    background-color:rgba(226, 16, 16, 0.75);
+    background-color: red;
+    background-color: rgba(226, 16, 16, 0.75);
     position: absolute;
-    left: 150px;
+    left: 250px;
 }
 
 #c-3{
    background-color:rgb(21, 166, 128);
+   background-color:rgba(21, 166, 128, 0.75);
    position: absolute;
-   left: 250px;
+   left: 400px;
+}
+
+#c-4{
+  background-color: turquoise;
+  background-color: rgba(47, 203, 200, 0.75);
+  position: absolute;
+  left: 550px;
 }
