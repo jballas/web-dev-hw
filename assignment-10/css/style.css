@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: 'NotoSerif';
+  font-family: 'NotoSerif-Italic';
   src:url('./fonts/NotoSerif-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -19,11 +19,61 @@
   font-style: normal;
 }
 
-* {
-  font-family: "NotoSerif", sans-serif;
 
+
+* {
+  font-family: "NotoSerif", Arial, serif;
+  font-size:16pt;
+  letter-spacing: normal;
+  padding: 20px;
 }
 
 h1 {
-  font-family: "SwankyandMooMoo", Georgia;
+  font-family: "SwankyandMooMoo", Palatino;
+  font-size: 250%;
+}
+
+h2 {
+  font-family: "NotoSerif-Italic", arial, serif;
+  font-size: 150%;
+  font-style: italic;
+  letter-spacing: 120%;
+}
+
+p {
+  line-height: 150%;
+  padding: 2;
+  text-indent: 5%;
+}
+
+br {
+  text-indent:5%;
+}
+
+p::first-letter {
+  font-family: "SwankyandMooMoo", Palatino;
+  font-size:700%;
+}
+
+p::first-line {
+  font-style: italic
+}
+
+a:link{
+  color: rgb(232, 28, 203);
+}
+
+a:hover{
+  color:rgb(6, 139, 167);
+}
+
+
+a:visited{
+  color: rgb(69, 10, 48);
+}
+
+.regular {
+  font-family: "NotoSerif", arial;
+  font-style: normal;
+  font-size: 100%;
 }
