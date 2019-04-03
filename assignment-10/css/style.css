@@ -1,0 +1,29 @@
+@font-face {
+  font-family:'NotoSerif';
+  src:url('./fonts/notoSerif-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerif';
+  src:url('./fonts/NotoSerif-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SwankyandMooMoo';
+  src:url('./fonts/SwankyandMooMoo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "NotoSerif", sans-serif;
+
+}
+
+h1 {
+  font-family: "SwankyandMooMoo", Georgia;
+}
