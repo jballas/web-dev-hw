@@ -37,18 +37,14 @@ h2 {
   font-family: "NotoSerif-Italic", arial, serif;
   font-size: 150%;
   font-style: italic;
-  letter-spacing: 120%;
 }
 
-p {
+p  {
   line-height: 150%;
   padding: 2;
-  text-indent: 5%;
+  /* text-indent: 5% ; */
 }
 
-br {
-  text-indent:5%;
-}
 
 p::first-letter {
   font-family: "SwankyandMooMoo", Palatino;
@@ -61,6 +57,7 @@ p::first-line {
 
 a:link{
   color: rgb(232, 28, 203);
+  letter-spacing: .20em;
 }
 
 a:hover{
@@ -74,6 +71,10 @@ a:visited{
 
 .regular {
   font-family: "NotoSerif", arial;
-  font-style: normal;
   font-size: 100%;
+  font-style: normal;
+}
+
+.chapter {
+  letter-spacing: .20em;
 }
