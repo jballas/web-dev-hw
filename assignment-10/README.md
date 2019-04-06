@@ -49,7 +49,11 @@ vs
 I was getting a warning from my CSS linter about using the `*{}`. It said that using `*{}` causing slower loading time, but even worse than that using it also effected how my `<cite>` tag appeared, which I did not like. I decided to ultimately stick with the `html{}`
 
 ### Font size
-I was determined to pick a relative size though. At first I used % for my font-size, but changed my mind and switched to em. That was a mistake, because I had to go back through carefully to find all of the %. Next time I'll pick one and stick to it.
+I was determined to pick a relative size for my fonts. At first I used %, but then I changed my mind and switched to em. That was a mistake, because I had to go back through carefully to find all of the %. Next time I'll pick one and stick to it.
+
+Although, I had an interesting error switching  between 700% and 70em. It made my dropcap huge!
+
+![Dropcap is huge. Whoops](screenshot-smallerror.PNG)
 
 ### Colors
 The colors I chose for my link refect Ava Clary's bright pink branding. I really like the constrasting blue/gray, so I may use that in my final project.

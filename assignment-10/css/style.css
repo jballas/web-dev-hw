@@ -54,7 +54,7 @@ p  {
 
 .main-content p:first-child::first-letter {
   font-family: 'SwankyandMooMoo', Palatino;
-  font-size:700%;
+  font-size:7em;
 }
 
 .main-content p:first-child::first-line {
