@@ -26,9 +26,9 @@ This week I choose to focus entirely on typography and only added a little color
 
 I decided to self-host my fonts this time, because embedding is too easy. Then I struggled a bit with the `@font-face`.
 
-### Psuedo-selectors
+### Pseudo-selectors
 
-Initially I started out with one paragraph with all my text, and then used line breaks. This allowed me to use just the `<p>` element to change the `p::first-letter` an `p::first-line`, but I couldn't adjust the rest of the lines this way. After reviewing the lesson, I follow along with making a main `div` and used the pseudo-selector for the first child. This is still a little confusing to me, but it did fix my problem.
+Initially I started out with one paragraph with all my text, and then used line breaks. This allowed me to use just the `<p>` element to change the `p::first-letter` an `p::first-line`, but I couldn't adjust the rest of the first lines this way. After reviewing the lesson, I follow along with making a main `div` and used the pseudo-selector for the first child. This is still a little confusing to me, but it did fix my problem.
 
 ### Padding
 
