@@ -1,6 +1,6 @@
 @font-face {
-  font-family:'NotoSerif';
-  src:url('../fonts/notoSerif-Regular.ttf') format('truetype');
+  font-family:'NotoSerif-Regular';
+  src:url('../fonts/NotoSerif-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,7 +22,7 @@
 
 
 html {
-  font-family: 'NotoSerif', serif;
+  font-family: 'NotoSerif-Regular', serif;
   font-size:16pt;
   letter-spacing: normal;
   padding: 20px 20px 20px 100px;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2, cite {
-  font-family: 'NotoSerif-Italic', serif;
+  font-family: 'NotoSerif-Italic', Palatino;
   font-size: 1.2em;
   font-style: italic;
   padding-bottom: 5%;
