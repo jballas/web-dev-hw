@@ -25,7 +25,7 @@ html {
   font-family: 'NotoSerif', serif;
   font-size:16pt;
   letter-spacing: normal;
-  padding: 20px,20px,20px, 100px;
+  padding: 20px 20px 20px 100px;
 }
 
 h1 {
@@ -70,7 +70,6 @@ a:hover{
   color:rgb(6, 139, 167);
 }
 
-
 a:visited{
   color: rgb(69, 10, 48);
 }
@@ -83,5 +82,5 @@ a:visited{
 .footer, .header {
   background-color: rgb(55, 100, 154);
   background-color: rgba(55, 100, 154, 0.32);
-  padding: .3em;
+  padding-left: 1em;
 }
