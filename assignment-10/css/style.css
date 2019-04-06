@@ -43,7 +43,7 @@ h2, cite {
 p  {
   line-height: 1.5em;
   padding: 2px;
- text-indent: .05em;
+  text-indent: 1em;
 }
 
 .main-content {
@@ -63,7 +63,6 @@ p  {
 
 a:link{
   color: rgb(232, 28, 203);
-  letter-spacing: .20em;
 }
 
 a:hover{
