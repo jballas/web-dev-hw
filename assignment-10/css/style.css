@@ -1,57 +1,63 @@
 @font-face {
   font-family:'NotoSerif';
-  src:url('./fonts/notoSerif-Regular.ttf') format('truetype');
+  src:url('../fonts/notoSerif-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'NotoSerif-Italic';
-  src:url('./fonts/NotoSerif-Italic.ttf') format('truetype');
+  src:url('../fonts/NotoSerif-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SwankyandMooMoo';
-  src:url('./fonts/SwankyandMooMoo.ttf') format('truetype');
+  src:url('../fonts/SwankyandMooMoo.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 
 
-* {
-  font-family: "NotoSerif", Arial, serif;
+html {
+  font-family: 'NotoSerif', serif;
   font-size:16pt;
   letter-spacing: normal;
-  padding: 20px;
+  padding: 20px,20px,20px, 100px;
 }
 
 h1 {
-  font-family: "SwankyandMooMoo", Palatino;
-  font-size: 250%;
+  font-family: 'SwankyandMooMoo', Palatino;
+  font-size: 2.5em;
 }
 
-h2 {
-  font-family: "NotoSerif-Italic", arial, serif;
-  font-size: 150%;
+h2, cite {
+  font-family: 'NotoSerif-Italic', serif;
+  font-size: 1.2em;
   font-style: italic;
+  padding-bottom: 5%;
 }
 
 p  {
   line-height: 150%;
-  padding: 2;
-  /* text-indent: 5% ; */
+  padding: 2px;
+ text-indent: 5%;
+}
+
+.main-content {
+  width: 50%;
+  height: auto;
 }
 
 
-p::first-letter {
-  font-family: "SwankyandMooMoo", Palatino;
+.main-content p:first-child::first-letter {
+  font-family: 'SwankyandMooMoo', Palatino;
   font-size:700%;
 }
 
-p::first-line {
+.main-content p:first-child::first-line {
   font-style: italic
 }
 
@@ -69,12 +75,13 @@ a:visited{
   color: rgb(69, 10, 48);
 }
 
-.regular {
-  font-family: "NotoSerif", arial;
-  font-size: 100%;
-  font-style: normal;
+.special {
+  font-family: 'SwankyandMooMoo', Palatino;
+  letter-spacing: .20em;
 }
 
-.chapter {
-  letter-spacing: .20em;
+.footer, .header {
+  background-color: rgb(55, 100, 154);
+  background-color: rgba(55, 100, 154, 0.32);
+  padding: .3em;
 }
