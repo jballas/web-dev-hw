@@ -1,5 +1,11 @@
 .canvas {
   width: 600px;
   height: 300px;
-  
+}
+
+.container{
+  width:30%;
+  heigh:50%;
+  border-color: rgb(86, 143, 227);
+  border: 20px;
 }
