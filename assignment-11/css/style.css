@@ -15,6 +15,10 @@ footer {
   overflow: hidden;
 }
 
+footer:hover{
+  background-color:rgb(141, 237, 196);
+}
+
 p{
   margin: auto;
   padding: 2px;
