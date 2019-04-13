@@ -18,15 +18,18 @@ h1{
   display: inline-block;
   /*float: left;*/
   margin-left: -5px;
+  z-index: 8;
 }
 
 .container-lg{
-  width: 220px;
-  height: 95px;
+  width: 195px;
+  height: 85px;
   display: inline-block;
-  margin-left: -5px;
-
+  position: relative;
+  top: -225px;
+  margin-left: 15px;
   border-radius: 1% 1% 150px 150px;
+  z-index: -2;
 }
 
 .inside-box{
@@ -79,50 +82,44 @@ h1{
 }
 
 .round1{
-  background-color: rgb(95, 226, 77);
-  border:15px solid rgb(95, 226, 77);
-  z-index: 1;
+  background-color: rgb(67, 170, 53);
+  border:15px solid rgb(67, 170, 53);
 }
 .round2{
   background-color:  rgb(208, 226, 116);
   border:  15px solid rgb(208, 226, 116);
   width: 80%;
   height: 70%;
-  z-index: 2;
 }
 
 .round3{
-  background-color: rgb(226, 36, 44);
-  border: 15px solid rgb(226, 36, 44);
+  background-color: rgb(230, 40, 98);
+  border: 15px solid rgb(230, 40, 98);
   width: 80%;
   height: 70%;
   margin-top: -15px;
-  z-index: 3;
 }
 
 .round4{
-  background-color: rgb(98, 117, 231);
-  border: 15px solid rgb(98, 117, 231);
+  background-color: rgb(67, 122, 205);
+  border: 15px solid rgb(67, 122, 205);
   width: 80%;
   height: 70%;
   margin-top: -15px;
-  z-index: 4;
 }
 
 .round5{
-  background-color: rgb(224, 99, 194);
-  border:  15px solid rgb(224, 99, 194);
+  background-color: rgb(233, 120, 187);
+  border:  15px solid rgb(233, 120, 187);
   width: 70%;
   height: 70%;
   margin-top: -15px;
-  z-index: 5;
 }
 
 .round6{
-  background-color: rgb(139, 153, 181);
-    border:  15px solid rgb(139, 153, 181);
-    width: 60%;
-    height: 70%;
+  background-color: rgb(186, 178, 178);
+    border:  15px solid rgb(186, 178, 178);
+    width: 50%;
+    height: 50%;
     margin-top: -15px;
-    z-index: 6;
 }
