@@ -1,12 +1,12 @@
 .canvas {
-  width: 800px;
-  height: 151px;
+  width: 1200px;
+  height: 110px;
   border:1px solid black;
 }
 
 .container{
-  width: 110px;
-  height: 100%;
+  width: 90px;
+  height: 90px;
   float: left;
 }
 
@@ -24,15 +24,27 @@
 
 .hidden-content {
   display: none;
+  /*border: 15px none white;*/
+
 }
+
 .section6{
   border: 15px solid rgb(124, 49, 123);
+  position: relative;
+  top: 50px;
+  left: 90px;
 }
 
 .section7{
   border: 15px solid rgb(167, 158, 156);
+  position: relative;
+  top: 50px;
+  left: 90px;
 }
 
 .section8{
   border: 15px solid rgb(241, 57, 98);
+  position: relative;
+  top: 50px;
+  left: 90px;
 }
