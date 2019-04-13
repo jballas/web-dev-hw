@@ -1,7 +1,7 @@
 .canvas {
   width: 600px;
   height: 110px;
-  border:1px solid black;
+  /*border:1px solid black;*/
 }
 
 .container{
@@ -13,19 +13,18 @@
 }
 
 .section1 {
-  border: 15px solid rgb(86, 143, 227);
+  border: 15px solid rgb(178, 197, 233);
+  border-radius: .01px .01px .01px 150px;
 }
 
 .section2 {
-  border: 15px solid rgb(236, 120, 25);
-  position: relative;
-  left: 5px;
+  border: 15px solid rgb(235, 161, 38);
+
 }
 
 .section3 {
   border: 15px solid rgb(41, 93, 111);
-  position: relative;
-  left: 10px;
+  border-radius: .01px 150px .01px .01px;
 }
 
 .hidden-content {
@@ -36,21 +35,23 @@
 
 .section6{
   border: 15px solid rgb(124, 49, 123);
+  border-radius: .01px .01px .01px 150px;
   position: relative;
   top: 15px;
-  left: 4px
+  left: 30px
 }
 
 .section7{
-  border: 15px solid rgb(167, 158, 156);
+  border: 15px solid rgb(201, 194, 181);
   position: relative;
   top: 15px;
-  left: 20px;
+  left: 30px;
 }
 
 .section8{
   border: 15px solid rgb(241, 57, 98);
+  border-radius: .01px 150px .01px .01px;
   position: relative;
   top: 15px;
-  left: 50px;
+  left: 30px;
 }
