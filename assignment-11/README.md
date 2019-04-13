@@ -22,12 +22,11 @@ Artwork in CSS is not fun. After studying p5.js last semester I much prefer to u
 
 ### Coding Workflow
 
-I began with the basic layout of my html and css. Then, I created a canvas that was porportional to my artwork inspiration. The original was 10 feet by 20 feet. So I wanted the same dimensions, 600px x 300 px. However, as I began to get deeper into my code positioning and sizing I abandoned that precision. I just wanted the same feeling.
+I began with the basic layout of my html and css. Then, I created a canvas that was porportional to my artwork inspiration. The original was 10 feet by 20 feet. So I wanted the same dimensions, 600px x 300 px. However, as I began to get deeper into my code I abandoned that precision. I just wanted the same feeling.
 
 I began with boxes. I needed six boxes in 2 rows and three columns. Then I realized I needed 8 "boxes", two of them had to be invisible. I managed the invisible boxes with this code:
 ```CSS
 .hidden-content {
-  /*display: none;*/
   border: 15px none white;
 
 }
