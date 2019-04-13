@@ -7,7 +7,17 @@ h1{
 }
 
 footer {
-  padding: 200px;
+  border: 2px dotted rgb(51, 60, 47);
+  border-radius: 150px;
+  padding: 10px;
+  min-width: 5px;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+p{
+  margin: auto;
+  padding: 2px;
 }
 .canvas {
   width: 600px;
@@ -24,14 +34,15 @@ footer {
 }
 
 .container-lg{
+  border-radius: 1px 1px 150px 150px;
   width: 195px;
   height: 100px;
   display: inline-block;
   position: relative;
   top: -220px;
   margin-left: 25px;
-  border-radius: 1% 1% 150px 150px;
   z-index: -2;
+
 }
 
 .section1 {
