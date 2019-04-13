@@ -1,6 +1,7 @@
 body{
   margin-left: 100px;
 }
+
 h1{
   color: rgb(51, 60, 47);
   font-size: 5em;
@@ -23,6 +24,7 @@ p{
   margin: auto;
   padding: 2px;
 }
+
 .canvas {
   width: 600px;
   height: 110px;
