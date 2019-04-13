@@ -18,16 +18,21 @@ h1{
   display: inline-block;
   /*float: left;*/
   margin-left: -5px;
-  z-index: 8;
 }
 
 .container-lg{
-  width: 200px;
+  width: 220px;
   height: 100px;
   display: inline-block;
   /*float: left;*/
   margin-left: -5px;
-  z-index: 1;
+}
+
+.inside-box{
+  border-width:15px;
+  width: 90%;
+  height: 90%;
+  margin: auto;
 }
 
 .section1 {
@@ -75,30 +80,36 @@ h1{
 }
 
 .round1{
-  border: 15px solid rgb(95, 226, 77);
-  border-radius: .01px .01px 150px 150px;
+  background-color: rgb(95, 226, 77);
+  border-radius: 1% 1% 150px 150px;
+  z-index: 1;
 }
 .round2{
-  border: 14px solid rgb(208, 226, 116);
-  border-radius: .01px .01px 150px 150px;
+  background-color:  rgb(208, 226, 116);
+  border-radius: 1% 1% 150px 150px;
+  z-index: 2;
 }
 
 .round3{
-  border: 13px solid rgb(226, 36, 44);
-  border-radius: .01px .01px 150px 150px;
+  background-color: rgb(226, 36, 44);
+  border-radius: 1% 1% 150px 150px;
+  z-index: 3;
 }
 
 .round4{
-  border: 12px solid rgb(98, 117, 231);
-  border-radius: .01px .01px 150px 150px;
+  background-color: rgb(98, 117, 231);
+  border-radius: 1% 1% 150px 150px;
+  z-index: 4;
 }
 
 .round5{
-  border: 11px solid rgb(224, 99, 194);
-  border-radius: .01px .01px 150px 150px;
+  background-color: rgb(224, 99, 194);
+  border-radius: 1% 1% 150px 150px;
+  z-index: 5;
 }
 
 .round6{
-    border: 10px solid rgb(139, 153, 181);
-    border-radius: .01px .01px 150px 150px;
+    background-color: rgb(139, 153, 181);
+    border-radius: 1% 1% 150px 150px;
+    z-index: 6;
 }
