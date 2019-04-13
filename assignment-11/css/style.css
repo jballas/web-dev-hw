@@ -1,13 +1,15 @@
 .canvas {
-  width: 1200px;
+  width: 600px;
   height: 110px;
   border:1px solid black;
 }
 
 .container{
-  width: 90px;
-  height: 90px;
-  float: left;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  /*float: left;*/
+  margin-left: -5px;
 }
 
 .section1 {
@@ -16,35 +18,39 @@
 
 .section2 {
   border: 15px solid rgb(236, 120, 25);
+  position: relative;
+  left: 5px;
 }
 
 .section3 {
   border: 15px solid rgb(41, 93, 111);
+  position: relative;
+  left: 10px;
 }
 
 .hidden-content {
-  display: none;
-  /*border: 15px none white;*/
+  /*display: none;*/
+  border: 15px none white;
 
 }
 
 .section6{
   border: 15px solid rgb(124, 49, 123);
   position: relative;
-  top: 50px;
-  left: 90px;
+  top: 15px;
+  left: 4px
 }
 
 .section7{
   border: 15px solid rgb(167, 158, 156);
   position: relative;
-  top: 50px;
-  left: 90px;
+  top: 15px;
+  left: 20px;
 }
 
 .section8{
   border: 15px solid rgb(241, 57, 98);
   position: relative;
-  top: 50px;
-  left: 90px;
+  top: 15px;
+  left: 50px;
 }
