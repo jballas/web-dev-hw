@@ -49,10 +49,9 @@ font-family: 'Bree Serif', serif;
 
 ### Placeholder images and text
 
-I found this site for [placeholder images](https://fpoimg.com/) or this one lets you specify animals. [Animals placeholder](http://lorempixel.com/)
+I found website that let you create [placeholder images](https://fpoimg.com/). You can embed the images too. This one lets you specify placeholder animal images. [Animals placeholder](http://lorempixel.com/)
 
-
-For generic text I found [Lorem Ipsum](https://www.lipsum.com/) generator.
+For generic text I found a [Lorem Ipsum](https://www.lipsum.com/) generator.
 
 For articles I found the [article generator](https://articlegenerator.org/index.php)
 
@@ -67,7 +66,7 @@ Step 2: `<nav>` bar
 Step 3: create about, contact, services pages
 Step 4: add placeholder text and images
 Step 5: add semantics
-Step 6: Contact form elements
+Step 6: create Contact form elements
 
 
 ### Coding CSS
