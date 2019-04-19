@@ -49,7 +49,8 @@ font-family: 'Bree Serif', serif;
 
 ### Placeholder images and text
 
-I found this site for [placeholder images](https://fpoimg.com/)
+I found this site for [placeholder images](https://fpoimg.com/) or this one lets you specify animals. [Animals placeholder](http://lorempixel.com/)
+
 
 For generic text I found [Lorem Ipsum](https://www.lipsum.com/) generator.
 
