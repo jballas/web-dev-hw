@@ -4,3 +4,9 @@ html{
 font-family: 'Chewy', cursive;
 font-family: 'Bree Serif', serif;
 }
+
+li {
+  border: 1px solid black;
+  display: inline-block;
+  width: 100px;
+}
