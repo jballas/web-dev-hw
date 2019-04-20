@@ -10,3 +10,36 @@ li {
   display: inline-block;
   width: 100px;
 }
+
+body{
+  background-color: purple;
+
+}
+h1{
+  color: white;
+}
+h2{
+  color:grey;
+}
+
+.column{
+  width: 200px;
+
+}
+
+.main-section{
+  width: 600px;
+}
+
+.social{
+  width: 200;
+  height: 200;
+  background-color: white;
+}
+
+.logo{
+  width: 200;
+  height: 200;
+  background-color:red;
+
+}
