@@ -27,6 +27,41 @@
       <img src="./images/placeholder-3.png" alt text="Placeholder image" title"200x600" width="600" height="200">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis purus massa. Mauris ultricies ut nisi a mollis. </p></div>
 
+      <form action="./contact.php" methold="get">
+        <p>Your Name:
+          <input type="text" name="name" size="20" maxlength="200" />
+        </p>
+        <fieldset>
+          <legend>Best way to contact you:</legend>
+          <p>
+            <input id="phone" type="checkbox" name="phone or email?" value="phone" />
+              <label for="phone">phone</label>
+            <input id="email" type="checkbox" name="phone or email?" value="email" />
+              <label for="email">email</label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Best time to contact you:</legend>
+          <p>
+            <input id="morning" type="checkbox" name="time of day" value="morning" />
+              <label for="morning">morning</label>
+            <input id="afternoon" type="checkbox" name="time of day" value="afternoon" />
+              <label for="afternoon">afternoon</label>
+            <input id="evening" type="checkbox" name="time of day" value="evening" />
+              <label for="evening">evening</label>
+          </p>
+        </fieldset>
+        <p>Phone:
+          <input type="text" name="name" size="20" maxlength="200" />
+        </p>
+        <p>Email:
+          <input type="text" name="name" size="20" maxlength="200" />
+        </p>
+        <textarea name="questions" col="200" rows="10" placeholder="Write your questions or comments..."></textarea>
+        </ br>
+        <button>Submit</button>
+
+      </form>
       <!--<iframe> ADD A GOOGLE MAP-->
     <div class="column"></div>
 
