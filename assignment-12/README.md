@@ -71,13 +71,14 @@ Step 6: create Contact form elements
 
 ### Coding CSS
 
-I have been studying Adobe XD, so I'm going to layout a very rough draft of my page in XD, just using boxes and shapes to get an idea of what things should look like.
+I want to have a layout with the nav bar, header and footer in color and the main part of the body white. Here is the steps process I'm following. I'll focus on one area and then the next.
 
-Step 1: Rough mockup in Adobe XD
+Step 1: Add basic CSS padding, margins, etc for body and divs
 Step 2: Add colors
 Step 3: Add Typography
 Step 4: Nav bar, with hover using Pseduo classes and hidden dropdown menu
 Step 5: Contact form
+
 
 ### Questions
 ### Issues or Concerns
