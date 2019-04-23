@@ -13,7 +13,10 @@ body{
 }
 
 h1{
-  color: white;
+  background-color: white;
+  color:purple;
+  padding: .5%;
+  font-size: 400%;
 }
 
 h2{
