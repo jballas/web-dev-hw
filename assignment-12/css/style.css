@@ -5,26 +5,33 @@ font-family: 'Chewy', cursive;
 font-family: 'Bree Serif', serif;
 }
 
-li {
-  border: 1px solid black;
-  display: inline-block;
-  width: 100px;
-}
 
 body{
   background-color: white;
+  margin-left: 100px;
 
 }
+
 h1{
   color: white;
 }
+
 h2{
   color:grey;
 }
 
+li {
+  border: 1px solid black;
+  display: inline-block;
+  width: 10%;
+  padding: 1%;
+  font-display: auto;
+  overflow: hidden;
+}
+
 .column{
   width: 200px;
-
+ float: right;
 }
 
 .main-section{
