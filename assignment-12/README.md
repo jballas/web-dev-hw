@@ -79,7 +79,10 @@ Step 3: Add Typography
 Step 4: Nav bar, with hover using Pseduo classes and hidden dropdown menu
 Step 5: Contact form
 
-
-### Questions
 ### Issues or Concerns
+
+I started adding the padding and margins, and realized I didn't like the main layout. I really didn't want a static image in the main section. I wanted a full background image that could adjust sizes. So I'm going to change this.
+
+Somehow I broke my menu. I had it as a `display: inline-block;` and then when I added the background color it stopped displaying as inline-block. Or is it my sizing causing the issue? I'm not sure, but its not working like I wanted it to.
+
 ### Conclusion
