@@ -91,6 +91,11 @@ a:visited{
   color:black;
 }
 
+a:active {
+    background-color: rgb(18, 188, 185);
+    color: rgb(174, 164, 188);
+}
+
 /* Classes */
 
 .main-section{
@@ -123,7 +128,6 @@ a:visited{
     display: inline-block;
     padding: 1em -1em;
 }
-
 
 .tagline:hover{
   background-color: inherit;
