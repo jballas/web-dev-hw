@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Chewy');
 
 html{
-font-family: 'Chewy', cursive;
 font-family: 'Bree Serif', serif;
 font-size: 16px;
 }
@@ -33,10 +32,14 @@ h1{
   color: rgb(152,102,226);
   padding: .5em;
   font-size: 400%;
+  font-family: 'Chewy', cursive;
+  font-size: 5em;
 }
 
 h2{
-  color:white;
+  color: rgb(18, 188, 137);
+  font-family: 'Chewy', cursive;
+  font-size: 3em;
 }
 
 /* MENU */
@@ -59,7 +62,7 @@ p{
 
 /* LINKS */
 a:link{
-  text-transform: none;
+  text-decoration: none;
   color: rgb(18, 188, 185);
 }
 a:visited{
