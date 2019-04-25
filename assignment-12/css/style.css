@@ -24,7 +24,7 @@ header{
 
 footer{
   width: 100%;
-  height: 200px;
+  height: relative;
   background-color:rgb(152,102,226);
 }
 
@@ -36,7 +36,7 @@ h1{
 }
 
 h2{
-  color:grey;
+  color:white;
 }
 
 /* MENU */
@@ -71,13 +71,23 @@ a:visited{
 
 .main-section{
   width: 100%;
-  height: 600px;
+  height: relative;
   min-width: 60%;
-  background-image: url(" ./images/placeholder-2.png");
-  background-color: gray;
 }
 
-.logo{
+.feature-photo {
+  max-width: 80%;
+  margin: auto;
+  background: url(../images/placeholder-2.png) no-repeat center;
+  background-color: rgb(178,146,219);
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  text-align: center;
+  z-index: 8;
+}
+
+.logo {
   width: 10em;
   height: 100%;
   background-color: rgb(18, 188, 185);
