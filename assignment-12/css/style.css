@@ -104,15 +104,6 @@ a:visited{
   display: block;
 }
 
-.social {
-  width: 200px;
-  height: 200px;
-  background-color: white;
-  border: 1px solid black;
-  position: relative;
-  display: block;
-}
-
 .tagline, .link {
     border: none;
     background-color: inherit;
