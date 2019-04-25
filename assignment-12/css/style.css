@@ -49,12 +49,12 @@ li, button{
   display: inline;
   padding-left: 1em;
   padding-right: 1em;
-  background-color: rgb(18, 188, 185);
+  background-color: rgb(152,102,226);
   overflow: hidden;
 }
 
 li:hover, button:hover {
-  background-color: rgb(152,102,226);
+  background-color: rgb(18, 188, 185);
 }
 p{
   text-indent: 2%;
@@ -81,13 +81,13 @@ a:visited{
 .feature-photo {
   max-width: 80%;
   margin: auto;
-  background: url(../images/placeholder-2.png) no-repeat center;
+  background: url(../images/placeholder.png) no-repeat center;
   background-color: rgb(178,146,219);
   background-size: cover;
   height: 600px;
   position: relative;
   text-align: center;
-  padding-top: 10em;
+  /*padding-top: 10em;*/
   z-index: -1;
 }
 
