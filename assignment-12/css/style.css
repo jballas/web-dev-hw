@@ -84,14 +84,15 @@ a:visited{
   height: 600px;
   position: relative;
   text-align: center;
-  z-index: 8;
+  padding-top: 10em;
+  z-index: -1;
 }
 
-.logo {
-  width: 10em;
-  height: 100%;
+.logo, address {
+  width: relative;
   background-color: rgb(18, 188, 185);
   position: relative;
+  display: block;
 }
 
 .social {
@@ -99,7 +100,8 @@ a:visited{
   height: 200px;
   background-color: white;
   border: 1px solid black;
-  float: right;
+  position: relative;
+  display: block;
 }
 
 .tagline {
