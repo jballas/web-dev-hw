@@ -42,7 +42,7 @@ h2{
 
 /* MENU */
 
-ul {
+ul, button {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -50,8 +50,11 @@ ul {
   background-color: rgb(152,102,226);
 
 }
+ li{
+   float: left;
+ }
 
-li, a, button{
+li, a, .link{
   display: inline-block;
   padding: 0em 1em 0em 1em;
   text-align: center;
@@ -113,24 +116,22 @@ a:visited{
 .tagline, .link {
     border: none;
     background-color: inherit;
-    display: inline;
-    padding-left: 1em;
-    padding-right: 1em;
+    display: inline-block;
+    padding: 1em -1em;
 }
+
 
 .tagline:hover{
   background-color: inherit;
 }
-.link{
-  max-width: 200px;
-  position: relative;
-}
 
 .hidden{
  display: none;
+ position: relative;
+ min-width: 160px;
+ z-index: 1;
 }
 
 .link:hover .hidden{
   display: block;
-  width: 200px;
 }
