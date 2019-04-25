@@ -81,7 +81,7 @@ a:visited{
 .feature-photo {
   max-width: 80%;
   margin: auto;
-  background: url(../images/placeholder.png) no-repeat center;
+  background: url(../images/featured.jpg) no-repeat center;
   background-color: rgb(178,146,219);
   background-size: cover;
   height: 600px;
@@ -113,6 +113,14 @@ a:visited{
     display: inline;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+.hidden{
+ display:none;
+}
+
+.hidden:hover{
+  display:block;
 }
 
 #CTA {
