@@ -11,9 +11,9 @@
 
 2. What is the difference between display: block, display: inline, and display: inline-block?
 
-- `display: block`
-- `display:inline`
-- `display:inline-block`
+- `display: block` These are elements that line up like blocks, one on top of each other.
+- `display:inline` Elements with this display will line up horizontally.
+- `display:inline-block` This is similar to the 'display:inline', however it also keeps some of the same margins and spacing.
 
 ## Free Response
 
@@ -47,16 +47,6 @@ font-family: 'Chewy', cursive;
 font-family: 'Bree Serif', serif;
 ```
 
-### Placeholder images and text
-
-I found website that let you create [placeholder images](https://fpoimg.com/). You can embed the images too. This one lets you specify placeholder animal images. [Animals placeholder](http://lorempixel.com/)
-
-For generic text I found a [Lorem Ipsum](https://www.lipsum.com/) generator.
-
-For articles I found the [article generator](https://articlegenerator.org/index.php)
-
-Hopefully, that's all I need. Now, on to the coding.
-
 ### Coding HTML
 
 I have my basic layout created already, with the meta, and basic html tags. Here's the 5 step plan.
@@ -87,4 +77,12 @@ Somehow I broke my menu. I had it as a `display: inline-block;` and then when I 
 
 My feature photo idea was not working, mostly because I had the wrong filepath for my image. I had to reference the "hero-image" from [W3 schools Background Image ](https://www.w3schools.com/css/css3_backgrounds.asp)
 
+The menu gave me trouble.
+![trouble with navigation bar](screenshot-navbar.PNG)
+I still didn't quite get it, since the dropdown is a long horizontal instead of a vertical bar. But its the best I could do.
+
+The last problem I had was the button on my main page. It was unclickable. I had no idea why. But it turns out my z-index was interferring with the button. So instead of having a z-index on my feature-photo div, I put it on my header and voila. The photo slides under the head like it is supposed to.
+
 ### Conclusion
+
+I'm not sure if the CSS website really captured the goal of the project, which was to focus on the theme, frisy and outdoors. About the only part that relates to it is the fonts and the green color and the scenes in the photos. I found this project really frustrating, because of the small mistakes I kept making, from breaking my menu to not having the right file path name in my featured photo. I really like having big photos. I will focus on more of that with my final project.

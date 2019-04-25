@@ -17,6 +17,7 @@ header{
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 2;
 }
 
 footer{
@@ -40,17 +41,27 @@ h2{
   font-size: 3em;
 }
 
+button {
+  background-color: rgb(152,102,226);
+  border: none;
+  padding: 1em;
+}
+
+button:hover {
+  background-color: rgb(18, 188, 185);
+}
+
 /* MENU */
 
-ul, button {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgb(152,102,226);
-
 }
- li{
+
+li{
    float: left;
  }
 
@@ -61,7 +72,7 @@ li, a, .link{
   text-decoration: none;
 }
 
-li:hover, button:hover {
+li:hover {
   background-color: rgb(18, 188, 185);
 }
 
@@ -93,8 +104,6 @@ a:visited{
   height: 600px;
   position: relative;
   text-align: center;
-  /*padding-top: 10em;*/
-  z-index: -1;
 }
 
 .logo, address {
