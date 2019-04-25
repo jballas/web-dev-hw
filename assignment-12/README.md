@@ -85,4 +85,6 @@ I started adding the padding and margins, and realized I didn't like the main la
 
 Somehow I broke my menu. I had it as a `display: inline-block;` and then when I added the background color it stopped displaying as inline-block. Or is it my sizing causing the issue? I'm not sure, but its not working like I wanted it to.
 
+My feature photo idea was not working, mostly because I had the wrong filepath for my image. I had to reference the "hero-image" from [W3 schools Background Image ](https://www.w3schools.com/css/css3_backgrounds.asp)
+
 ### Conclusion
