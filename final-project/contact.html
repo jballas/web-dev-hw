@@ -6,6 +6,10 @@
     <meta name="author" content="Julia Ballas" />
     <meta name = viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Google Recaptcha Script from https://developers.google.com/recaptcha/docs/display -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- CSS script -->
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <title> Ava Clary | rom com books for the scifi/fantasy lover  </title>
   </head>
@@ -29,6 +33,11 @@
 
     <!-- Add form -->
 
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LdataAUAAAAAHkIYpPo585VwuKMlanM8FfkkwAe"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
 
     <footer>
       <!--Social media icons-->
