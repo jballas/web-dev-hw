@@ -5,11 +5,12 @@
 
 ## Final Project: Personal Website
 
-I want my final project to be an author website, and to sell books. The goal of the page is to feature the newest book available and encourage people to buy it. Mostly people find the website through word of mouth, rather than just stumbling on it. Then they
+
+## Free Response
+I want my final project to be an author website. The goal of the page is to feature the newest book available and encourage people to buy it. Mostly people find the website through word of mouth, rather than just stumbling on it. So I need to have excerpts availble to try and convince them it is worth buying.
 
 I have been studying Adobe XD, so I'm going to layout a very rough draft of my page in XD. Then I can experiement with the User Interface and consider the User Experience too.
 
-## Free Response
 
 ### Colors
 
@@ -46,11 +47,29 @@ Step 6: create Contact form elements
 
 ### Coding CSS
 
-Step 1: Rough mockup in Adobe XD
-Step 2: Add colors
-Step 3: Add Typography
-Step 4: Nav bar, with hover using Pseduo classes and hidden dropdown menu
-Step 5: Contact form
+Step 1: Add colors
+Step 2: Add Typography
+Step 3: Nav bar, with hover using Pseduo classes and hidden dropdown menu
+Step 4: Contact form
 
 ### Issues or Concerns
+
+Recaptcha from google
+I wanted to impliment a recaptcha in my contact form. So I researched Google's recaptcha and applied for a key for the website and added in a code. I'm not sure I implimented it correctly.
+
+Script added inside the `<head>`
+```HTML
+<!-- Google Recaptcha Script from https://developers.google.com/recaptcha/docs/display -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+```
+
+Added this form to the `<body>` and a personalized sitekey from google.
+```html
+<form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LdataAUAAAAAHkIYpPo585VwuKMlanM8FfkkwAe"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+```
+
 ### Conclusion
