@@ -38,19 +38,23 @@ Goodreads
 
 I have my basic layout created already, with the meta, and basic html tags. Here's the 5 step plan.
 
-Step 1: basic html layout
-Step 2: create about, contact, book and blog pages
-Step 3: Add basic div and images to each page
-Step 4: Add text
-Step 5: `<nav>` bar, footer
-Step 6: create Contact form elements
+- Step 1: basic html layout
+- Step 2: create about, contact, book and blog pages
+- Step 3: Add basic div and images to each page
+- Step 4: Add text
+- Step 5: `<nav>` bar, footer
+- Step 6: create Contact form elements
 
 ### Coding CSS
 
-Step 1: Add colors
-Step 2: Add Typography
-Step 3: Nav bar, with hover using Pseduo classes and hidden dropdown menu
-Step 4: Contact form
+- Step 1: Focus adding css to index.html: classes, h1, etc.
+  - 1.2: Book
+  - 1.3: blog
+  - 1.4: About
+  - 1.5: Contact
+- Step 2: Add Typography
+- Step 3: Nav bar, with hover using Pseduo classes
+- Step 4: Contact form
 
 ### Issues or Concerns
 
