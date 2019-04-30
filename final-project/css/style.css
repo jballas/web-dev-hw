@@ -1,1 +1,61 @@
 /* I have headers and footers, check what I need to add for older browers to see them correctly*/
+
+.body {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+/* MENU */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background-color: #FFFFFF;
+}
+
+li{
+   float: left;
+ }
+
+li, a, .link{
+  display: inline-block;
+  padding: .5em 1em .5em 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Classes */
+.feature-image {
+  width: 60%;
+  height: 20em;
+  background-image: url("../images/FDRAdventure00-cropped.png");
+  float: right;
+  position: relative;
+  top: -20em;
+}
+
+.banner {
+  background-color: #EA6E8B;
+  width: 101%;
+  margin: -1%;
+}
+
+.logo-firstname {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: -1em;
+}
+
+.logo-lastname {
+  color: #EA6E8B;
+  text-transform: uppercase;
+}
