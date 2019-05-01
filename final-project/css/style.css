@@ -10,6 +10,16 @@ h1 {
   font-size: 5em;
 }
 
+footer{
+  width: 100%;
+  background-color: #EA6E8B;
+  padding: 20px 0;
+}
+
+p {
+  line-height: 1.5em;
+  text-indent: 1.5em;
+}
 /* MENU */
 
 ul {
@@ -19,6 +29,7 @@ ul {
   overflow: hidden;
   position: sticky;
   top: 0;
+  left: 5%;
   background-color: #FFFFFF;
 }
 
@@ -31,6 +42,14 @@ li, a, .link{
   padding: .5em 1em .5em 1em;
   text-align: center;
   text-decoration: none;
+  color: #EA6E8B;
+}
+
+a:visited {
+  color: #707070;
+}
+a:active, a:hover{
+  color: #3FA4BE;
 }
 
 /* Classes */
@@ -52,10 +71,14 @@ li, a, .link{
 .logo-firstname {
   color: #FFFFFF;
   text-transform: uppercase;
+  margin-left: 10%;
   margin-bottom: -1em;
+  border: 1px solid black;
 }
 
 .logo-lastname {
   color: #EA6E8B;
   text-transform: uppercase;
+  margin-left: 10%;
+  border: 1px solid black;
 }
