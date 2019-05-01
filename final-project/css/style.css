@@ -10,10 +10,13 @@ h1 {
   font-size: 5em;
 }
 
-footer{
-  width: 100%;
-  background-color: #EA6E8B;
-  padding: 20px 0;
+h2{
+  font-size: 2.5em;
+}
+
+h3{
+  font-size: 2em;
+  font-style: italic;
 }
 
 p {
@@ -53,32 +56,67 @@ a:active, a:hover{
 }
 
 /* Classes */
+.book{
+  width: 20%;
+  float: left;
+  padding-left: 5%;
+  padding-bottom: 1%;
+}
 .feature-image {
-  width: 60%;
+  width: 65%;
   height: 20em;
   background-image: url("../images/FDRAdventure00-cropped.png");
-  float: right;
+  float: left;
   position: relative;
-  top: -20em;
 }
 
 .banner {
   background-color: #EA6E8B;
-  width: 101%;
-  margin: -1%;
+  width: 100%;
+  float: left;
 }
 
 .logo-firstname {
   color: #FFFFFF;
   text-transform: uppercase;
   margin-left: 10%;
-  margin-bottom: -1em;
-  border: 1px solid black;
+  margin-bottom: -.4em;
+  letter-spacing: .5em;
 }
 
 .logo-lastname {
   color: #EA6E8B;
   text-transform: uppercase;
   margin-left: 10%;
-  border: 1px solid black;
+  margin-bottom: 1%;
+  letter-spacing: .5em;
+}
+
+.section-left{
+  width: 40%;
+  float: left;
+  margin-top: -3em;
+}
+
+.excerpt {
+  width: 50%;
+  max-height: 400px;
+  padding-left: 1em;
+  float: left;
+  overflow: scroll;
+}
+
+.footer{
+  width: 100%;
+  background-color: #EA6E8B;
+  padding: 20px 0px 20px 0px;
+  float: left;
+}
+
+#dropcap::first-letter{
+  font-size: 4em;
+}
+
+#dropcap::first-line{
+  letter-spacing:  .2em;
 }
