@@ -5,12 +5,18 @@
 
 ## Final Project: Personal Website
 
+1. Did you learn anything new about web development (ie using GitHub, version control, repositories)?
+
+I was already familiar with github from a previous class on coding, so I jumped straight into using a repo and my github desktop. I can't imagine going back to manually uploading files, or connecting them. This semester I did access my files online, and updated from there sometimes.
+
+2. Did you learn anything new about web design (ie using media, color, fonts)?
+
+There is so much more to web design than learning your basic html. There is the structural components, but then the actual design is an entirely different thing. I found working from scratch much harder than I expected to get really good looking CSS websites. I will have to keep on practicing to get my ideas to appear online.
 
 ## Free Response
 I want my final project to be an author website. The goal of the page is to feature the newest book available and encourage people to buy it. Mostly people find the website through word of mouth, rather than just stumbling on it. So I need to have excerpts availble to try and convince them it is worth buying.
 
-I have been studying Adobe XD, so I'm going to layout a very rough draft of my page in XD. Then I can experiement with the User Interface and consider the User Experience too.
-
+I have been studying Adobe XD, so I'm going to layout a very rough draft of my page in XD before I begin to code. The tricky part will be recreating what I design in code.
 
 ### Colors
 
@@ -46,6 +52,8 @@ I have my basic layout created already, with the meta, and basic html tags. Here
 - Step 5: `<nav>` bar, footer
 - Step 6: create Contact form elements
 
+This wasn't hard to put together. I used some of content from my wordpress website, but I made sure to recreate the code from scratch and not just copy and paste. After I get my layout and content, then I have to change it depending on my
+
 ### Coding CSS
 
 - Step 1: Focus adding css to index.html: classes, h1, etc.
@@ -59,7 +67,7 @@ I have my basic layout created already, with the meta, and basic html tags. Here
 
 ### Issues or Concerns
 
-Recaptcha from google
+Recaptcha from Google
 I wanted to impliment a recaptcha in my contact form. So I researched Google's recaptcha and applied for a key for the website and added in a code. I'm not sure I implimented it correctly.
 
 Script added inside the `<head>`
@@ -76,5 +84,6 @@ Added this form to the `<body>` and a personalized sitekey from google.
       <input type="submit" value="Submit">
     </form>
 ```
+
 
 ### Conclusion

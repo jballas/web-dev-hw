@@ -34,24 +34,50 @@ ul {
   top: 0;
   left: 5%;
   background-color: #FFFFFF;
+  border: 1px solid black;
 }
 
 li{
    float: left;
- }
+   display: inline-block;
+   text-align: center;
+   margin-left: 5%;
+/*    padding: .5em 1em .5em 1em;
+  color: #EA6E8B;
+  text-decoration: none;*/
+}
 
-li, a, .link{
-  display: inline-block;
+a.home{
+    padding: .5em 1em .5em 1em;
+    color: #EA6E8B;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.home:visited {
+  color: #707070;
+}
+a.home:active, a.home:hover{
+  color: #3FA4BE;
+}
+
+.subdomain-menu{
+    min-width: 40%;
+    background-color: #EA6E8B;
+    float: right;
+}
+
+a.subdomain-menu{
+  color: #FFFFFF;
   padding: .5em 1em .5em 1em;
   text-align: center;
   text-decoration: none;
-  color: #EA6E8B;
 }
 
-a:visited {
+a.subdomain-menu:visited {
   color: #707070;
 }
-a:active, a:hover{
+a.subdomain-menu:active, a.subdomain-menu:hover{
   color: #3FA4BE;
 }
 
@@ -71,8 +97,9 @@ a:active, a:hover{
 }
 
 .banner {
-  background-color: #EA6E8B;
+  border: 1px solid black;
   width: 100%;
+  background-color: #EA6E8B;
   float: left;
 }
 
@@ -80,7 +107,7 @@ a:active, a:hover{
   color: #FFFFFF;
   text-transform: uppercase;
   margin-left: 10%;
-  margin-bottom: -.4em;
+  margin-bottom: -3%;
   letter-spacing: .5em;
 }
 
@@ -112,6 +139,7 @@ a:active, a:hover{
   padding: 20px 0px 20px 0px;
   float: left;
 }
+
 
 #dropcap::first-letter{
   font-size: 4em;
