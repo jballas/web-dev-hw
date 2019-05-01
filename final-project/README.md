@@ -15,6 +15,7 @@ I have been studying Adobe XD, so I'm going to layout a very rough draft of my p
 ### Colors
 
 Main Color: light pink: #EA6E8B
+bright pink: #EA008B;
 Highlights: light blue: #3FA4BE
 Shadows: dark blue: #1B4A56
 Bright Call to Action: yellow #FFDE59
