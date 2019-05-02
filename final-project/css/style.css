@@ -103,15 +103,23 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
   float: left;
 }
 
-.logo-firstname {
-  color: #FFFFFF;
-  text-transform: uppercase;
-  margin-left: 10%;
-  margin-bottom: -3%;
-  letter-spacing: .5em;
+.logo {
+  border: 1px solid red;
+  float:left;
+  position: relative;
+  top: 30px;
+  left: 100px;
 }
 
-.logo-lastname {
+#firstname {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+ margin-left: 10%;
+  margin-bottom: -3%;
+}
+
+#lastname {
   color: #EA6E8B;
   text-transform: uppercase;
   margin-left: 10%;
