@@ -25,7 +25,7 @@ p {
 }
 
 header{
-  position: fixed;
+  position: static;
   top:0;
   left:0;
 }
@@ -90,8 +90,9 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
 /* Classes */
 .book{
   min-width: 20%;
+  min-height: 260px;
   float: left;
-  padding: 2%;
+  padding: 1%;
   z-index: 2;
 }
 .feature-image {
@@ -121,7 +122,8 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
   color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: .5em;
- margin-left: 10%;
+  margin-top: -5%;
+  margin-left: 5%;
   margin-bottom: -3%;
 }
 
@@ -129,6 +131,7 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
   color: #EA6E8B;
   text-transform: uppercase;
   margin-left: 10%;
+  margin-top: 5%;
   margin-bottom: 1%;
   letter-spacing: .5em;
 }
@@ -155,10 +158,10 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
 }
 
 .book-description, .coming-soon {
+  
   min-width: 50%;
   max-width:60%;
   float:left;
-  background-color: #707070;
   padding: 2%;
   margin: auto;
   z-index: -8;
