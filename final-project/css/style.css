@@ -23,6 +23,12 @@ p {
   line-height: 1.5em;
   text-indent: 1.5em;
 }
+
+header{
+  position: fixed;
+  top:0;
+  left:0;
+}
 /* MENU */
 
 ul {
@@ -83,10 +89,10 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
 
 /* Classes */
 .book{
-  width: 20%;
+  min-width: 20%;
   float: left;
-  padding-left: 5%;
-  padding-bottom: 1%;
+  padding: 2%;
+  z-index: 2;
 }
 .feature-image {
   width: 65%;
@@ -129,7 +135,7 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
 
 .section-left{
   width: 40%;
-  float: left;
+  /*float: left*/
   margin-top: -3em;
 }
 
@@ -137,7 +143,7 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
   width: 50%;
   max-height: 400px;
   padding-left: 1em;
-  float: left;
+  /*float: left;*/
   overflow: scroll;
 }
 
@@ -148,6 +154,15 @@ a.subdomain-menu:active, a.subdomain-menu:hover{
   float: left;
 }
 
+.book-description, .coming-soon {
+  min-width: 50%;
+  max-width:60%;
+  float:left;
+  background-color: #707070;
+  padding: 2%;
+  margin: auto;
+  z-index: -8;
+}
 
 #dropcap::first-letter{
   font-size: 4em;
