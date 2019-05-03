@@ -1,6 +1,13 @@
 /* if I have headers and footers, check what I need to add for older browers to see them correctly*/
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
+@font-face{
+  font-family: "AlternativeGothic2";
+  src: url("../fonts/AlternativeGothicNo.2BT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-size: 105%;
   margin: 0;
@@ -9,10 +16,14 @@ body {
 
 h1 {
   font-size: 5em;
+  font-family: "AlternativeGothic2", sans-serif;
 }
 
 h2{
   font-size: 2.5em;
+  font-family: "AlternativeGothic2", sans-serif;
+  margin-left: 1em;
+  padding-top: 2em;
 }
 
 h3{
@@ -56,7 +67,7 @@ li{
    text-align: center;
    min-width: 3em;
    max-width: 4em;
-  padding: .2em;
+  padding: .5em;
   color: #EA6E8B;
   text-decoration: none;
 }
@@ -104,11 +115,22 @@ a.home:active, a.home:hover{
   overflow: scroll;
 }
 
+.main-section{
+  padding-left: 2em;
+}
+
 .footer{
   width: 100%;
   height: 100px;
-  backgroud-color: #EA6E8B;
+  background-color: #EA6E8B;
   float: left;
+  padding-top: 1%;
+}
+
+.call-to-action{
+  letter-spacing: 1%;
+  font-family: "AlternativeGothic2", sans-serif;
+
 }
 
 #dropcap::first-letter{
@@ -117,8 +139,4 @@ a.home:active, a.home:hover{
 
 #dropcap::first-line{
   letter-spacing:  .2em;
-}
-
-#call-to-action{
-  letter-spacing: 1%;
 }
