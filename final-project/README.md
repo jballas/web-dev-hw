@@ -69,7 +69,7 @@ After my issue with the responsive design I simplified my layout and my banner f
 ### Issues or Concerns
 
 #### Recaptcha from Google
-I wanted to impliment a recaptcha in my contact form. So I researched Google's recaptcha and applied for a key for the website and added in a code. I'm not sure I implimented it correctly. ![Error](./images/screenshot-capthcaError.PNG)
+I wanted to impliment a recaptcha in my contact form. So I researched Google's recaptcha and applied for a key for the website and added in a code. I'm not sure I implimented it correctly. ![Error](./images/screenshot-captchaError.PNG)
 
 Script added inside the `<head>`
 ```HTML
@@ -95,7 +95,7 @@ Mobile
 ![Badly designed Home page](./images/screenshot-home.png)
 
 Website
-![Badly designed WebHome page](./images/screenshot-web.png)
+![Badly designed WebHome page](./images/screenshot-web.PNG)
 
 I decided to make some changes and simplified my layout, moved the location of my menu and various other things. However, when I tested again I found the same problem. Then I discovered the missing " . That was the problem. In my `<meta>` tag I was missing a " and that made the site non-responsive. Simple fix, yet so very very important. Testing is key to making sure everything is working. I will test again with the correct meta tag.
 
@@ -105,6 +105,6 @@ It works much better. I still had to adjust my font sizes and image sizes to be 
 ### Conclusion
 
 Final Website
-![Final Home Web page](./images/screenshot-final-web.png)
+![Final Home Web page](./images/screenshot-final-web.PNG)
 
 HTML and CSS combine to make a beautiful code. The experience of learning basic html to designing more complex websites has been an amazing journey this semester, one I plan to continue. There is something very satisfying about struggling with your code and then finally seeing it come together in the end.
