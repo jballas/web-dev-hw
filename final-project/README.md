@@ -58,9 +58,13 @@ This wasn't hard to put together. I used some of content from my wordpress websi
   - 1.3: blog
   - 1.4: About
   - 1.5: Contact
-- Step 2: Add Typography
+- Step 2: Fix Typography, sizing
 - Step 3: Nav bar updated, with hover using Pseduo classes
 - Step 4: Contact form and button design
+
+My workflow was much better this time around, instead of focusing on an element, such as color or typography, I allowed myself to focus on each page and started at the top and went down. I tend to bounce around when I code, from adding code to margins and padding, but focusing like this helped so much.
+
+After my issue with the responsive design I simplified my layout and my banner from my original idea and I'm much happier. This way the content stands out and I can use images or artwork to make it more colorful. Keeping with a very simple color palette really makes sense to me now.
 
 ### Issues or Concerns
 
@@ -87,9 +91,20 @@ It turns out it does work correctly online, but I get an error on my local versi
 #### Responsive design
 I was working along on my layout, following my lovely XD prototype, then I tested it on my mobile and discovered a huge problem. My site was not responsive.
 
+Mobile
 ![Badly designed Home page](./images/screenshot-home.png)
+
+Website
+![Badly designed WebHome page](./images/screenshot-web.png)
 
 I decided to make some changes and simplified my layout, moved the location of my menu and various other things. However, when I tested again I found the same problem. Then I discovered the missing " . That was the problem. In my `<meta>` tag I was missing a " and that made the site non-responsive. Simple fix, yet so very very important. Testing is key to making sure everything is working. I will test again with the correct meta tag.
 
+It works much better. I still had to adjust my font sizes and image sizes to be more repsonsive. Ultimately, I am very satisfied with layout on mobile and on web.
+
 
 ### Conclusion
+
+Final Website
+![Final Home Web page](./images/screenshot-final-web.png)
+
+HTML and CSS combine to make a beautiful code. The experience of learning basic html to designing more complex websites has been an amazing journey this semester, one I plan to continue. There is something very satisfying about struggling with your code and then finally seeing it come together in the end.
