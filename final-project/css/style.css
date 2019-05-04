@@ -51,6 +51,7 @@ header {
     background-color: #FFFFFF;
     padding: 0;
     border-bottom: 5px solid #EA6E8B;
+  z-index: 2;
 }
 
 ul {
@@ -185,7 +186,7 @@ input#submit, button {
   padding: 5px;
   position: relative;
   left: 25px;
-  z-index: -1;
+  z-index: 1;
 }
 
 input#submit:hover, button:hover{
