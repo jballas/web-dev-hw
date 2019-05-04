@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  font-size: 5em;
+  min-font-size: 500%;
   font-family: "AlternativeGothic2", sans-serif;
 }
 
@@ -58,7 +58,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  max-width: 60%;
+  min-width:50%;
+  max-width: 100%;
   background-color: #FFFFFF;
 }
 
@@ -82,12 +83,18 @@ a.home{
     text-decoration: none;
 }
 
-a.home:visited {
+a.home:visited, a.buy:visited{
   color: #707070;
 }
 a.home:active, a.home:hover{
   color: #3FA4BE;
 }
+
+a.buy{
+  text-align: center;
+  text-decoration: none;
+}
+
 
 /* Classes */
 .book{
@@ -119,6 +126,7 @@ a.home:active, a.home:hover{
 
 .main-section{
   padding-left: 2em;
+  padding-bottom: 2%;
 }
 
 .icon{
@@ -138,4 +146,51 @@ a.home:active, a.home:hover{
 
 #dropcap::first-line{
   letter-spacing:  .2em;
+}
+
+.small-image {
+  width: 175px;
+  height: 290px;
+}
+.medium-image {
+  width:260px;
+  height:400px;
+}
+
+featured-image {
+  width: 300px;
+  max-width:600px;
+
+}
+/* Contact form */
+
+textarea#message {
+  position:relative;
+  left: 25px;
+  border-color: #EA6E8B;
+}
+
+#robot-check{
+  position: relative;
+  left: 25px;
+}
+
+input#submit, button {
+  background-color: #FFDE59;
+  border-top:  2px solid #FFCE59;
+  border-left: 2px solid #FFCE59;
+  border-right: 2px solid #cd9d29;
+  border-bottom: 2px solid #cd9d29;
+  padding: 5px;
+  position: relative;
+  left: 25px;
+}
+
+input#submit:hover, button:hover{
+  background-color: #3FA4BE;
+  border-top:  2px solid #68b2c6;
+  border-left: 2px solid #68b2c6;
+  border-right: 2px solid #235f6f;
+  border-bottom: 2px solid #235f6f;
+  padding: 5px;
 }

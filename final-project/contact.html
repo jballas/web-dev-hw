@@ -30,13 +30,24 @@
     <div class="main-section">
     <h2>Contact me</h2>
 
-    <!-- Add form -->
-
-    <form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LdataAUAAAAAHkIYpPo585VwuKMlanM8FfkkwAe"></div>
-      <br/>
-      <input type="submit" value="Submit">
+    <form action="https://jballas.github.io/web-dev-hw/final-project/contact.php" method="get" id="contact">
+      <p>Name:
+      <input type="text" name="Name" id="message_sender_name" size="50" maxlength="50"/>
+      </p>
+      <p>Email:
+      <input type="text" name="Email" id="message_sender_email" size="50" maxlength="50"/>
+      </p>
+      <p>Favorite Book or Movie:
+      <input type="text" name="Name" id="favorite_media" size="50" maxlength="50"/>
+      </p>
+      <textarea name="message" id="message" rows="15" cols="75" placeholder="Send me your questions, comments or any messages here"></textarea>
     </form>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" id="robot-check" data-sitekey="6LdataAUAAAAAHkIYpPo585VwuKMlanM8FfkkwAe"></div>
+      <br/>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+
 </div>
 <div class="banner">
   <a href="https://www.instagram.com/ava.clary/"><img class="icon" src="./images/instagramglyph-logo_May2016.png" alt="instagram logo" width="25" height="25"></a>
