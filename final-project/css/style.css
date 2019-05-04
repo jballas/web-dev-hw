@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  min-font-size: 500%;
+  font-size: 400%;
   font-family: "AlternativeGothic2", sans-serif;
 }
 
@@ -55,6 +55,7 @@ header {
 
 ul {
   list-style-type: none;
+     display: inline-block;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -157,8 +158,8 @@ a.buy{
   height:400px;
 }
 
-featured-image {
-  width: 300px;
+.featured-image {
+  width: 100%;
   max-width:600px;
 
 }
@@ -184,6 +185,7 @@ input#submit, button {
   padding: 5px;
   position: relative;
   left: 25px;
+  z-index: -1;
 }
 
 input#submit:hover, button:hover{
